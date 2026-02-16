@@ -13,7 +13,6 @@
     
     echo "<h2>Початкове число: $number</h2>";
     
-    // 1. Сума цифр
     $digit1 = floor($number / 100);        
     $digit2 = floor(($number % 100) / 10); 
     $digit3 = $number % 10;               
